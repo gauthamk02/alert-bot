@@ -1,0 +1,31 @@
+version: 1.0.0
+timezone: Asia/Kolkata
+
+Files:
+  Assignment:
+    Filename: assignments.csv
+    Offset:
+      Days: 1
+      Months: 0
+      Years: 0
+    CompareDate: DueDate
+    Message: Assignment due tomorrow - {Assignment} at {DueTime}
+
+  Birthday:
+    Filename: birthdays.csv
+    Offset:
+      Days: 0
+    CompareDate: DOB
+    CompareDateFormat: "%d-%m"
+    Message: Happy Birthday {Name}!
+
+#File:
+#  bdayfile: birthdays.csv
+#  Assignment: assignments.csv
+
+#Offset:
+#  Assignment:
+#    Days: 1
+
+#Message:
+#  Assignment: Assignment due tomorrow - {Assignment} at {DueTime}
